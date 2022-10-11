@@ -36,7 +36,7 @@ header {
     }
 
     @include mediaquery(phone){
-        padding: 5% 2%;
+        padding: 5% 5%;
     }
   }
 }
@@ -57,7 +57,7 @@ header {
     width: 40%;
 
     @include mediaquery(phone){
-       margin-bottom: 4%;
+       margin-bottom: 2em;
        width: 60%;
       }
     
@@ -65,7 +65,7 @@ header {
 
   .inner-container {
     background-color: $secondary-color;
-    padding: 4% 6%;
+    padding: 4% 10%;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
     border-radius: 10px;
     border: 5px solid white;
@@ -82,17 +82,9 @@ header {
 
     input {
       padding: 10px 15px;
-    
       border: 1px solid rgb(215, 209, 209);
       border-radius: 4px;
-
-    //   &:focus{
-    //     border: 2px solid rgb(255, 255, 255);
-    //     outline-color: #f05454;
-    //     outline-style: dashed;
-
-    //   }
-
+      width: 100%;
     
     }
 
