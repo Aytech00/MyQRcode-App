@@ -82,16 +82,16 @@ header {
 
     input {
       padding: 10px 15px;
-      width: 100%;
+    
       border: 1px solid rgb(215, 209, 209);
       border-radius: 4px;
 
-      &:focus{
-        border: 2px solid rgb(255, 255, 255);
-        outline-color: #f05454;
-        outline-style: dashed;
+    //   &:focus{
+    //     border: 2px solid rgb(255, 255, 255);
+    //     outline-color: #f05454;
+    //     outline-style: dashed;
 
-      }
+    //   }
 
     
     }
