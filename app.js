@@ -27,7 +27,7 @@ form.addEventListener('submit', (e)=>{
 
             hideLoader();
 
-            myResult()
+            myResult(input)
             
         }, 4000);
 
@@ -50,9 +50,17 @@ const hideLoader = ()=>{
 
 }
 
-const myResult = ()=>{
-    let text = document.getElementById('result')
-    text.innerHTML = 'Development in progress!'
+const myResult = (input)=>{
+    // let text = document.getElementById('result')
+    // text.innerHTML = 'Development in progress!'
+
+
+    const qrcode = new QRCode(document.getElementById("result"), {
+        text: input,
+        width: 250,
+        height: 250,
+        colorDark : "#000000",
+        colorLight : "#ffffff",
+        
+    });
 }
-
-
