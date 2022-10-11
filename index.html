@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My QR app - js proj</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/0fed1877d2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+
+<header>
+    <nav>
+        <a class="logo" href="">My QR code App</a>
+
+        <div>
+            <i class="fa-regular fa-moon toggle-icon"></i>
+                </div>
+
+    </nav>
+</header>
+
+<div class="container ">
+
+  
+    <img class="animate__animated animate__fadeInUp animate__delay__5s" src="/images/qr-code-concept-illustration_114360-5853.webp" alt="">
+
+
+    
+    
+    <div class="inner-container animate__animated animate__fadeInUp animate__delay__slower">
+        <div class="title-container">
+            <h1>Type your url</h1>
+
+        </div>
+         <div class="text-container">
+            <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Veritatis, nihil?</p>
+         </div>
+
+
+    
+        <form id="myform">
+            <input type="text" name="" placeholder="Url" id="url">
+
+            <div class="btn-container">
+                <button type="submit">Submit</button>
+            </div>
+
+        </form>
+
+        <div class="loader" id="gif">
+            <img class="loader-gif" src="/images/d9j4sgc-a814900f-434d-40bd-a2fc-614e815dce15.gif" alt="">
+        </div>
+
+        <div class="">
+
+            <p id="error-msg"></p>
+
+        </div>
+
+        <div class="result-container" id="result">
+
+        </div>
+    </div>
+
+</div>
+
+
+
+
+    <!-- Scripts -->
+
+    <script src="/app.js"></script>
+</body>
+</html>
